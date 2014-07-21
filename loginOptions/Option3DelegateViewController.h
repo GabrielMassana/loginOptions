@@ -14,8 +14,6 @@
 
 @end
 
-
-
 @interface Option3DelegateViewController : UIViewController
 {
     id myDelegate;

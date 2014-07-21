@@ -55,8 +55,6 @@
  
         }
     }
-    
-    
 }
 
 - (IBAction)logIn: (NSString*) login andPassword: (NSString*) password

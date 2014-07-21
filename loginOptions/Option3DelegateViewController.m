@@ -46,8 +46,6 @@
     {
         [self.passwordLoginField resignFirstResponder];
         
-        //This Identifier is in the Storyboard
-
         if ([_delegate respondsToSelector:@selector(logIn:password:)])
         {
             [_delegate logIn:self.usernameLoginField.text password:self.passwordLoginField.text];
