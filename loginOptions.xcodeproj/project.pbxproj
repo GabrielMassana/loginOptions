@@ -21,6 +21,11 @@
 		06551884197D4D7000F07188 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06551866197D4D7000F07188 /* UIKit.framework */; };
 		0655188C197D4D7000F07188 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0655188A197D4D7000F07188 /* InfoPlist.strings */; };
 		0655188E197D4D7000F07188 /* loginOptionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0655188D197D4D7000F07188 /* loginOptionsTests.m */; };
+		06551899197D4E8B00F07188 /* Option1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06551898197D4E8B00F07188 /* Option1ViewController.m */; };
+		0655189C197D4E9700F07188 /* Option2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0655189B197D4E9700F07188 /* Option2ViewController.m */; };
+		0655189F197D4EA600F07188 /* Option3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0655189E197D4EA600F07188 /* Option3ViewController.m */; };
+		065518A5197D529400F07188 /* Option2JoinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065518A4197D529400F07188 /* Option2JoinViewController.m */; };
+		065518A8197D573900F07188 /* Option3DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065518A7197D573900F07188 /* Option3DelegateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		06551889197D4D7000F07188 /* loginOptionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "loginOptionsTests-Info.plist"; sourceTree = "<group>"; };
 		0655188B197D4D7000F07188 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0655188D197D4D7000F07188 /* loginOptionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginOptionsTests.m; sourceTree = "<group>"; };
+		06551897197D4E8B00F07188 /* Option1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Option1ViewController.h; sourceTree = "<group>"; };
+		06551898197D4E8B00F07188 /* Option1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Option1ViewController.m; sourceTree = "<group>"; };
+		0655189A197D4E9700F07188 /* Option2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Option2ViewController.h; sourceTree = "<group>"; };
+		0655189B197D4E9700F07188 /* Option2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Option2ViewController.m; sourceTree = "<group>"; };
+		0655189D197D4EA600F07188 /* Option3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Option3ViewController.h; sourceTree = "<group>"; };
+		0655189E197D4EA600F07188 /* Option3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Option3ViewController.m; sourceTree = "<group>"; };
+		065518A3197D529400F07188 /* Option2JoinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Option2JoinViewController.h; sourceTree = "<group>"; };
+		065518A4197D529400F07188 /* Option2JoinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Option2JoinViewController.m; sourceTree = "<group>"; };
+		065518A6197D573900F07188 /* Option3DelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Option3DelegateViewController.h; sourceTree = "<group>"; };
+		065518A7197D573900F07188 /* Option3DelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Option3DelegateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +132,9 @@
 				06551874197D4D7000F07188 /* Main.storyboard */,
 				06551877197D4D7000F07188 /* ViewController.h */,
 				06551878197D4D7000F07188 /* ViewController.m */,
+				065518A2197D526A00F07188 /* Option 1 */,
+				065518A1197D526800F07188 /* Option 2 */,
+				065518A0197D526200F07188 /* Option3 */,
 				0655187A197D4D7000F07188 /* Images.xcassets */,
 				06551869197D4D7000F07188 /* Supporting Files */,
 			);
@@ -150,6 +168,37 @@
 				0655188A197D4D7000F07188 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		065518A0197D526200F07188 /* Option3 */ = {
+			isa = PBXGroup;
+			children = (
+				0655189D197D4EA600F07188 /* Option3ViewController.h */,
+				0655189E197D4EA600F07188 /* Option3ViewController.m */,
+				065518A6197D573900F07188 /* Option3DelegateViewController.h */,
+				065518A7197D573900F07188 /* Option3DelegateViewController.m */,
+			);
+			name = Option3;
+			sourceTree = "<group>";
+		};
+		065518A1197D526800F07188 /* Option 2 */ = {
+			isa = PBXGroup;
+			children = (
+				0655189A197D4E9700F07188 /* Option2ViewController.h */,
+				0655189B197D4E9700F07188 /* Option2ViewController.m */,
+				065518A3197D529400F07188 /* Option2JoinViewController.h */,
+				065518A4197D529400F07188 /* Option2JoinViewController.m */,
+			);
+			name = "Option 2";
+			sourceTree = "<group>";
+		};
+		065518A2197D526A00F07188 /* Option 1 */ = {
+			isa = PBXGroup;
+			children = (
+				06551897197D4E8B00F07188 /* Option1ViewController.h */,
+				06551898197D4E8B00F07188 /* Option1ViewController.m */,
+			);
+			name = "Option 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				065518A8197D573900F07188 /* Option3DelegateViewController.m in Sources */,
 				06551879197D4D7000F07188 /* ViewController.m in Sources */,
 				06551873197D4D7000F07188 /* AppDelegate.m in Sources */,
 				0655186F197D4D7000F07188 /* main.m in Sources */,
+				0655189C197D4E9700F07188 /* Option2ViewController.m in Sources */,
+				065518A5197D529400F07188 /* Option2JoinViewController.m in Sources */,
+				06551899197D4E8B00F07188 /* Option1ViewController.m in Sources */,
+				0655189F197D4EA600F07188 /* Option3ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +510,7 @@
 				06551893197D4D7000F07188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06551894197D4D7000F07188 /* Build configuration list for PBXNativeTarget "loginOptionsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +519,7 @@
 				06551896197D4D7000F07188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
