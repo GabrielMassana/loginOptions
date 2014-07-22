@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		062514B2197E5AD1003F91AC /* KeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062514B1197E5AD1003F91AC /* KeyboardController.m */; };
+		062514B5197E5B35003F91AC /* Option4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062514B4197E5B35003F91AC /* Option4ViewController.m */; };
 		06551863197D4D7000F07188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06551862197D4D7000F07188 /* Foundation.framework */; };
 		06551865197D4D7000F07188 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06551864197D4D7000F07188 /* CoreGraphics.framework */; };
 		06551867197D4D7000F07188 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06551866197D4D7000F07188 /* UIKit.framework */; };
@@ -39,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		062514B0197E5AD1003F91AC /* KeyboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardController.h; sourceTree = "<group>"; };
+		062514B1197E5AD1003F91AC /* KeyboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardController.m; sourceTree = "<group>"; };
+		062514B3197E5B35003F91AC /* Option4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Option4ViewController.h; sourceTree = "<group>"; };
+		062514B4197E5B35003F91AC /* Option4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Option4ViewController.m; sourceTree = "<group>"; };
 		0655185F197D4D7000F07188 /* loginOptions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginOptions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06551862197D4D7000F07188 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		06551864197D4D7000F07188 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,6 +100,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		062514AF197E5AC3003F91AC /* Option4 */ = {
+			isa = PBXGroup;
+			children = (
+				062514B3197E5B35003F91AC /* Option4ViewController.h */,
+				062514B4197E5B35003F91AC /* Option4ViewController.m */,
+				062514B0197E5AD1003F91AC /* KeyboardController.h */,
+				062514B1197E5AD1003F91AC /* KeyboardController.m */,
+			);
+			name = Option4;
+			sourceTree = "<group>";
+		};
 		06551856197D4D7000F07188 = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +152,7 @@
 				065518A2197D526A00F07188 /* Option 1 */,
 				065518A1197D526800F07188 /* Option 2 */,
 				065518A0197D526200F07188 /* Option3 */,
+				062514AF197E5AC3003F91AC /* Option4 */,
 				0655187A197D4D7000F07188 /* Images.xcassets */,
 				06551869197D4D7000F07188 /* Supporting Files */,
 			);
@@ -306,6 +324,8 @@
 				065518A5197D529400F07188 /* Option2JoinViewController.m in Sources */,
 				06551899197D4E8B00F07188 /* Option1ViewController.m in Sources */,
 				0655189F197D4EA600F07188 /* Option3ViewController.m in Sources */,
+				062514B5197E5B35003F91AC /* Option4ViewController.m in Sources */,
+				062514B2197E5AD1003F91AC /* KeyboardController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
